@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+*.swp
+.idea/
+.vscode/
+
+# parc's own local output, if ever run from inside the repo
+*.parc.tar.zst
+*.parc.tar.zst.age
+*.partial
